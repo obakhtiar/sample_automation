@@ -1,0 +1,371 @@
+
+Execution of 3 workers started at 2022-08-26T13:11:34.369Z
+
+2022-08-26T13:11:34.633Z INFO @wdio/cli:launcher: Run onPrepare hook
+Starting cucumber tests
+2022-08-26T13:11:44.392Z INFO @wdio/cli:launcher: Run onWorkerStart hook
+2022-08-26T13:11:44.395Z INFO @wdio/local-runner: Start worker 0-0 with arg: run,test/wdio.conf.ts
+[0-0] [90m2022-08-26T13:11:44.825Z[39m [96mINFO[39m [97m@wdio/local-runner[39m: Run worker command: run
+[0-0] [90m2022-08-26T13:11:45.241Z[39m [96mINFO[39m [97mwdio-multiple-cucumber-html-reporter[39m: The 'jsonFolder' was not set, it has been set to the default '.tmp/json/'
+[0-0] [90m2022-08-26T13:11:45.241Z[39m [96mINFO[39m [97mwdio-multiple-cucumber-html-reporter[39m: The 'language' was not set, it has been set to the default 'en'
+[0-0] [90m2022-08-26T13:11:45.242Z[39m [96mINFO[39m [97mwdio-multiple-cucumber-html-reporter[39m: The 'reportFilePerRetry' was not set, it has been set to the default 'true'
+[0-0] RUNNING in chrome - D:\automation_suite_instasub\features\filereader.feature
+[0-0] [90m2022-08-26T13:11:46.520Z[39m [96mINFO[39m [97mwebdriver[39m: Initiate new session using the WebDriver protocol
+[0-0] [90m2022-08-26T13:11:46.525Z[39m [96mINFO[39m [97mwebdriver[39m: [POST] http://localhost:4444/wd/hub/session
+[0-0] [90m2022-08-26T13:11:46.525Z[39m [96mINFO[39m [97mwebdriver[39m: [33mDATA[39m {
+[0-0]   capabilities: {
+[0-0]     alwaysMatch: { browserName: 'chrome', acceptInsecureCerts: true },
+[0-0]     firstMatch: [ {} ]
+[0-0]   },
+[0-0]   desiredCapabilities: { browserName: 'chrome', acceptInsecureCerts: true }
+[0-0] }
+[0-0] 2022-08-26T13:11:54.166Z [[32mINFO[39m]: seeting up the path
+[0-0] [90m2022-08-26T13:11:55.412Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m takeScreenshot()
+[0-0] [90m2022-08-26T13:11:55.412Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:4444/wd/hub/session/42b0697dd8ff8a6c8ee17f96016eae5d/screenshot
+[0-0] {"token":"\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5hbnQiOiIyZjI3NTAxNS03N2IzLTNiZTYtYmM4NC0yZjI3NmQ1MWYxZWYiLCJhY2NvdW50SWQiOiI2MmViYjk5NTUxMTEyMDlmNGZkZjAxMzkiLCJpc1hlYSI6ZmFsc2UsImlhdCI6MTY2MTUxOTUxNSwiZXhwIjoxNjYxNjA1OTE1LCJhdWQiOiJGNTQ3MjA4MDhGMDU0NzZCQTgyOEI2ODA5MjE5QTg5NiIsImlzcyI6ImNvbS54cGFuZGl0LnBsdWdpbnMueHJheSIsInN1YiI6IkY1NDcyMDgwOEYwNTQ3NkJBODI4QjY4MDkyMTlBODk2In0.hji7qDWIquo00PfDvLK11IyL87cu3fZeExYHcfPCRjE\""}
+[0-0] writing to D:\automation_suite_instasub\resources\xraytoken.json
+[0-0] [90m2022-08-26T13:11:55.495Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m iVBORw0KGgoAAAANSUhEUgAAA6EAAAN3CAYAAADDPFwYAAAAAXNSR0IArs4c6...
+[0-0] [90m2022-08-26T13:11:55.498Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m deleteSession()
+[0-0] [90m2022-08-26T13:11:55.498Z[39m [96mINFO[39m [97mwebdriver[39m: [DELETE] http://localhost:4444/wd/hub/session/42b0697dd8ff8a6c8ee17f96016eae5d
+[0-0] PASSED in chrome - D:\automation_suite_instasub\features\filereader.feature
+2022-08-26T13:11:56.992Z INFO @wdio/cli:launcher: Run onWorkerEnd hook
+2022-08-26T13:11:56.993Z INFO @wdio/cli:launcher: Run onWorkerStart hook
+2022-08-26T13:11:56.995Z INFO @wdio/local-runner: Start worker 0-1 with arg: run,test/wdio.conf.ts
+[0-1] [90m2022-08-26T13:11:57.389Z[39m [96mINFO[39m [97m@wdio/local-runner[39m: Run worker command: run
+[0-1] [90m2022-08-26T13:11:57.827Z[39m [96mINFO[39m [97mwdio-multiple-cucumber-html-reporter[39m: The 'jsonFolder' was not set, it has been set to the default '.tmp/json/'
+[0-1] [90m2022-08-26T13:11:57.828Z[39m [96mINFO[39m [97mwdio-multiple-cucumber-html-reporter[39m: The 'language' was not set, it has been set to the default 'en'
+[0-1] [90m2022-08-26T13:11:57.828Z[39m [96mINFO[39m [97mwdio-multiple-cucumber-html-reporter[39m: The 'reportFilePerRetry' was not set, it has been set to the default 'true'
+[0-1] RUNNING in chrome - D:\automation_suite_instasub\features\login.feature
+[0-1] [90m2022-08-26T13:11:58.199Z[39m [96mINFO[39m [97mwebdriver[39m: Initiate new session using the WebDriver protocol
+[0-1] [90m2022-08-26T13:11:58.202Z[39m [96mINFO[39m [97mwebdriver[39m: [POST] http://localhost:4444/wd/hub/session
+[0-1] [90m2022-08-26T13:11:58.203Z[39m [96mINFO[39m [97mwebdriver[39m: [33mDATA[39m {
+[0-1]   capabilities: {
+[0-1]     alwaysMatch: { browserName: 'chrome', acceptInsecureCerts: true },
+[0-1]     firstMatch: [ {} ]
+[0-1]   },
+[0-1]   desiredCapabilities: { browserName: 'chrome', acceptInsecureCerts: true }
+[0-1] }
+[0-1] [90m2022-08-26T13:12:02.962Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m navigateTo("https://the-internet.herokuapp.com/login")
+[0-1] [90m2022-08-26T13:12:02.962Z[39m [96mINFO[39m [97mwebdriver[39m: [POST] http://localhost:4444/wd/hub/session/6bbde4b9b41535c35e05560d0a962fec/url
+[0-1] [90m2022-08-26T13:12:02.962Z[39m [96mINFO[39m [97mwebdriver[39m: [33mDATA[39m { url: 'https://the-internet.herokuapp.com/login' }
+[0-1] [90m2022-08-26T13:12:06.569Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m takeScreenshot()
+[0-1] [90m2022-08-26T13:12:06.569Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:4444/wd/hub/session/6bbde4b9b41535c35e05560d0a962fec/screenshot
+[0-1] [90m2022-08-26T13:12:06.678Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m iVBORw0KGgoAAAANSUhEUgAAA6EAAAN3CAYAAADDPFwYAAAAAXNSR0IArs4c6...
+[0-1] [90m2022-08-26T13:12:06.682Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m findElement("css selector", "#username")
+[0-1] [90m2022-08-26T13:12:06.682Z[39m [96mINFO[39m [97mwebdriver[39m: [POST] http://localhost:4444/wd/hub/session/6bbde4b9b41535c35e05560d0a962fec/element
+[0-1] [90m2022-08-26T13:12:06.682Z[39m [96mINFO[39m [97mwebdriver[39m: [33mDATA[39m { using: 'css selector', value: '#username' }
+[0-1] [90m2022-08-26T13:12:06.709Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m {
+[0-1]   'element-6066-11e4-a52e-4f735466cecf': '3ab10368-ea7a-4713-899c-b124f366e583'
+[0-1] }
+[0-1] [90m2022-08-26T13:12:06.717Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m elementClear("3ab10368-ea7a-4713-899c-b124f366e583")
+[0-1] [90m2022-08-26T13:12:06.717Z[39m [96mINFO[39m [97mwebdriver[39m: [POST] http://localhost:4444/wd/hub/session/6bbde4b9b41535c35e05560d0a962fec/element/3ab10368-ea7a-4713-899c-b124f366e583/clear
+[0-1] [90m2022-08-26T13:12:06.765Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m elementSendKeys("3ab10368-ea7a-4713-899c-b124f366e583", "<Screenshot[base64]>")
+[0-1] [90m2022-08-26T13:12:06.766Z[39m [96mINFO[39m [97mwebdriver[39m: [POST] http://localhost:4444/wd/hub/session/6bbde4b9b41535c35e05560d0a962fec/element/3ab10368-ea7a-4713-899c-b124f366e583/value
+[0-1] [90m2022-08-26T13:12:06.766Z[39m [96mINFO[39m [97mwebdriver[39m: [33mDATA[39m { text: 'tomsmith' }
+[0-1] [90m2022-08-26T13:12:06.813Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m findElement("css selector", "#password")
+[0-1] [90m2022-08-26T13:12:06.813Z[39m [96mINFO[39m [97mwebdriver[39m: [POST] http://localhost:4444/wd/hub/session/6bbde4b9b41535c35e05560d0a962fec/element
+[0-1] [90m2022-08-26T13:12:06.814Z[39m [96mINFO[39m [97mwebdriver[39m: [33mDATA[39m { using: 'css selector', value: '#password' }
+[0-1] [90m2022-08-26T13:12:06.833Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m {
+[0-1]   'element-6066-11e4-a52e-4f735466cecf': 'ef74eeb2-829f-4bba-93ae-bc3aed48a904'
+[0-1] }
+[0-1] [90m2022-08-26T13:12:06.835Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m elementClear("ef74eeb2-829f-4bba-93ae-bc3aed48a904")
+[0-1] [90m2022-08-26T13:12:06.836Z[39m [96mINFO[39m [97mwebdriver[39m: [POST] http://localhost:4444/wd/hub/session/6bbde4b9b41535c35e05560d0a962fec/element/ef74eeb2-829f-4bba-93ae-bc3aed48a904/clear
+[0-1] [90m2022-08-26T13:12:06.866Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m elementSendKeys("ef74eeb2-829f-4bba-93ae-bc3aed48a904", "SuperSecretPassword!")
+[0-1] [90m2022-08-26T13:12:06.867Z[39m [96mINFO[39m [97mwebdriver[39m: [POST] http://localhost:4444/wd/hub/session/6bbde4b9b41535c35e05560d0a962fec/element/ef74eeb2-829f-4bba-93ae-bc3aed48a904/value
+[0-1] [90m2022-08-26T13:12:06.867Z[39m [96mINFO[39m [97mwebdriver[39m: [33mDATA[39m { text: 'SuperSecretPassword!' }
+[0-1] [90m2022-08-26T13:12:06.916Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m findElement("css selector", "button[type="submit"]")
+[0-1] [90m2022-08-26T13:12:06.916Z[39m [96mINFO[39m [97mwebdriver[39m: [POST] http://localhost:4444/wd/hub/session/6bbde4b9b41535c35e05560d0a962fec/element
+[0-1] [90m2022-08-26T13:12:06.916Z[39m [96mINFO[39m [97mwebdriver[39m: [33mDATA[39m { using: 'css selector', value: 'button[type="submit"]' }
+[0-1] [90m2022-08-26T13:12:06.930Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m {
+[0-1]   'element-6066-11e4-a52e-4f735466cecf': 'd8d36979-5348-4442-8299-11fa4ec9458b'
+[0-1] }
+[0-1] [90m2022-08-26T13:12:06.932Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m elementClick("d8d36979-5348-4442-8299-11fa4ec9458b")
+[0-1] [90m2022-08-26T13:12:06.933Z[39m [96mINFO[39m [97mwebdriver[39m: [POST] http://localhost:4444/wd/hub/session/6bbde4b9b41535c35e05560d0a962fec/element/d8d36979-5348-4442-8299-11fa4ec9458b/click
+[0-1] [90m2022-08-26T13:12:07.498Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m takeScreenshot()
+[0-1] [90m2022-08-26T13:12:07.498Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:4444/wd/hub/session/6bbde4b9b41535c35e05560d0a962fec/screenshot
+[0-1] [90m2022-08-26T13:12:07.607Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m iVBORw0KGgoAAAANSUhEUgAAA6EAAAN3CAYAAADDPFwYAAAAAXNSR0IArs4c6...
+[0-1] [90m2022-08-26T13:12:07.611Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m findElement("css selector", "#flash")
+[0-1] [90m2022-08-26T13:12:07.611Z[39m [96mINFO[39m [97mwebdriver[39m: [POST] http://localhost:4444/wd/hub/session/6bbde4b9b41535c35e05560d0a962fec/element
+[0-1] [90m2022-08-26T13:12:07.611Z[39m [96mINFO[39m [97mwebdriver[39m: [33mDATA[39m { using: 'css selector', value: '#flash' }
+[0-1] [90m2022-08-26T13:12:07.631Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m {
+[0-1]   'element-6066-11e4-a52e-4f735466cecf': 'e760b39c-d279-4eff-a89c-3c7ee37655de'
+[0-1] }
+[0-1] [90m2022-08-26T13:12:07.635Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m findElements("css selector", "#flash")
+[0-1] [90m2022-08-26T13:12:07.635Z[39m [96mINFO[39m [97mwebdriver[39m: [POST] http://localhost:4444/wd/hub/session/6bbde4b9b41535c35e05560d0a962fec/elements
+[0-1] [90m2022-08-26T13:12:07.635Z[39m [96mINFO[39m [97mwebdriver[39m: [33mDATA[39m { using: 'css selector', value: '#flash' }
+[0-1] [90m2022-08-26T13:12:07.656Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m [
+[0-1]   {
+[0-1]     'element-6066-11e4-a52e-4f735466cecf': 'e760b39c-d279-4eff-a89c-3c7ee37655de'
+[0-1]   }
+[0-1] ]
+[0-1] [90m2022-08-26T13:12:07.662Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m findElement("css selector", "#flash")
+[0-1] [90m2022-08-26T13:12:07.663Z[39m [96mINFO[39m [97mwebdriver[39m: [POST] http://localhost:4444/wd/hub/session/6bbde4b9b41535c35e05560d0a962fec/element
+[0-1] [90m2022-08-26T13:12:07.663Z[39m [96mINFO[39m [97mwebdriver[39m: [33mDATA[39m { using: 'css selector', value: '#flash' }
+[0-1] [90m2022-08-26T13:12:07.679Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m {
+[0-1]   'element-6066-11e4-a52e-4f735466cecf': 'e760b39c-d279-4eff-a89c-3c7ee37655de'
+[0-1] }
+[0-1] [90m2022-08-26T13:12:07.683Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m getElementText("e760b39c-d279-4eff-a89c-3c7ee37655de")
+[0-1] [90m2022-08-26T13:12:07.684Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:4444/wd/hub/session/6bbde4b9b41535c35e05560d0a962fec/element/e760b39c-d279-4eff-a89c-3c7ee37655de/text
+[0-1] [90m2022-08-26T13:12:07.702Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m You logged into a secure area!
+[0-1] ×
+[0-1] [90m2022-08-26T13:12:07.702Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m takeScreenshot()
+[0-1] [90m2022-08-26T13:12:07.703Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:4444/wd/hub/session/6bbde4b9b41535c35e05560d0a962fec/screenshot
+[0-1] [90m2022-08-26T13:12:07.787Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m iVBORw0KGgoAAAANSUhEUgAAA6EAAAN3CAYAAADDPFwYAAAAAXNSR0IArs4c6...
+[0-1] [90m2022-08-26T13:12:07.789Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m navigateTo("https://the-internet.herokuapp.com/login")
+[0-1] [90m2022-08-26T13:12:07.789Z[39m [96mINFO[39m [97mwebdriver[39m: [POST] http://localhost:4444/wd/hub/session/6bbde4b9b41535c35e05560d0a962fec/url
+[0-1] [90m2022-08-26T13:12:07.789Z[39m [96mINFO[39m [97mwebdriver[39m: [33mDATA[39m { url: 'https://the-internet.herokuapp.com/login' }
+[0-1] [90m2022-08-26T13:12:08.086Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m takeScreenshot()
+[0-1] [90m2022-08-26T13:12:08.087Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:4444/wd/hub/session/6bbde4b9b41535c35e05560d0a962fec/screenshot
+[0-1] [90m2022-08-26T13:12:08.205Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m iVBORw0KGgoAAAANSUhEUgAAA6EAAAN3CAYAAADDPFwYAAAAAXNSR0IArs4c6...
+[0-1] [90m2022-08-26T13:12:08.206Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m findElement("css selector", "#username")
+[0-1] [90m2022-08-26T13:12:08.206Z[39m [96mINFO[39m [97mwebdriver[39m: [POST] http://localhost:4444/wd/hub/session/6bbde4b9b41535c35e05560d0a962fec/element
+[0-1] [90m2022-08-26T13:12:08.206Z[39m [96mINFO[39m [97mwebdriver[39m: [33mDATA[39m { using: 'css selector', value: '#username' }
+[0-1] [90m2022-08-26T13:12:08.219Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m {
+[0-1]   'element-6066-11e4-a52e-4f735466cecf': '1da894dc-ea08-4ebd-9650-80bc3b1d49f3'
+[0-1] }
+[0-1] [90m2022-08-26T13:12:08.221Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m elementClear("1da894dc-ea08-4ebd-9650-80bc3b1d49f3")
+[0-1] [90m2022-08-26T13:12:08.221Z[39m [96mINFO[39m [97mwebdriver[39m: [POST] http://localhost:4444/wd/hub/session/6bbde4b9b41535c35e05560d0a962fec/element/1da894dc-ea08-4ebd-9650-80bc3b1d49f3/clear
+[0-1] [90m2022-08-26T13:12:08.257Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m elementSendKeys("1da894dc-ea08-4ebd-9650-80bc3b1d49f3", "foobar")
+[0-1] [90m2022-08-26T13:12:08.257Z[39m [96mINFO[39m [97mwebdriver[39m: [POST] http://localhost:4444/wd/hub/session/6bbde4b9b41535c35e05560d0a962fec/element/1da894dc-ea08-4ebd-9650-80bc3b1d49f3/value
+[0-1] [90m2022-08-26T13:12:08.257Z[39m [96mINFO[39m [97mwebdriver[39m: [33mDATA[39m { text: 'foobar' }
+[0-1] [90m2022-08-26T13:12:08.303Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m findElement("css selector", "#password")
+[0-1] [90m2022-08-26T13:12:08.304Z[39m [96mINFO[39m [97mwebdriver[39m: [POST] http://localhost:4444/wd/hub/session/6bbde4b9b41535c35e05560d0a962fec/element
+[0-1] [90m2022-08-26T13:12:08.304Z[39m [96mINFO[39m [97mwebdriver[39m: [33mDATA[39m { using: 'css selector', value: '#password' }
+[0-1] [90m2022-08-26T13:12:08.319Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m {
+[0-1]   'element-6066-11e4-a52e-4f735466cecf': '9043bda8-87b7-40cd-b6ae-ecb150eb2e08'
+[0-1] }
+[0-1] [90m2022-08-26T13:12:08.322Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m elementClear("9043bda8-87b7-40cd-b6ae-ecb150eb2e08")
+[0-1] [90m2022-08-26T13:12:08.322Z[39m [96mINFO[39m [97mwebdriver[39m: [POST] http://localhost:4444/wd/hub/session/6bbde4b9b41535c35e05560d0a962fec/element/9043bda8-87b7-40cd-b6ae-ecb150eb2e08/clear
+[0-1] [90m2022-08-26T13:12:08.353Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m elementSendKeys("9043bda8-87b7-40cd-b6ae-ecb150eb2e08", "ddd")
+[0-1] [90m2022-08-26T13:12:08.353Z[39m [96mINFO[39m [97mwebdriver[39m: [POST] http://localhost:4444/wd/hub/session/6bbde4b9b41535c35e05560d0a962fec/element/9043bda8-87b7-40cd-b6ae-ecb150eb2e08/value
+[0-1] [90m2022-08-26T13:12:08.353Z[39m [96mINFO[39m [97mwebdriver[39m: [33mDATA[39m { text: 'ddd' }
+[0-1] [90m2022-08-26T13:12:08.398Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m findElement("css selector", "button[type="submit"]")
+[0-1] [90m2022-08-26T13:12:08.398Z[39m [96mINFO[39m [97mwebdriver[39m: [POST] http://localhost:4444/wd/hub/session/6bbde4b9b41535c35e05560d0a962fec/element
+[0-1] [90m2022-08-26T13:12:08.398Z[39m [96mINFO[39m [97mwebdriver[39m: [33mDATA[39m { using: 'css selector', value: 'button[type="submit"]' }
+[0-1] [90m2022-08-26T13:12:08.411Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m {
+[0-1]   'element-6066-11e4-a52e-4f735466cecf': 'a2c2f0ee-7da9-4ea7-8f64-1358c74d8fc8'
+[0-1] }
+[0-1] [90m2022-08-26T13:12:08.413Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m elementClick("a2c2f0ee-7da9-4ea7-8f64-1358c74d8fc8")
+[0-1] [90m2022-08-26T13:12:08.413Z[39m [96mINFO[39m [97mwebdriver[39m: [POST] http://localhost:4444/wd/hub/session/6bbde4b9b41535c35e05560d0a962fec/element/a2c2f0ee-7da9-4ea7-8f64-1358c74d8fc8/click
+[0-1] [90m2022-08-26T13:12:08.967Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m takeScreenshot()
+[0-1] [90m2022-08-26T13:12:08.967Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:4444/wd/hub/session/6bbde4b9b41535c35e05560d0a962fec/screenshot
+[0-1] [90m2022-08-26T13:12:09.074Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m iVBORw0KGgoAAAANSUhEUgAAA6EAAAN3CAYAAADDPFwYAAAAAXNSR0IArs4c6...
+[0-1] [90m2022-08-26T13:12:09.076Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m findElement("css selector", "#flash")
+[0-1] [90m2022-08-26T13:12:09.077Z[39m [96mINFO[39m [97mwebdriver[39m: [POST] http://localhost:4444/wd/hub/session/6bbde4b9b41535c35e05560d0a962fec/element
+[0-1] [90m2022-08-26T13:12:09.077Z[39m [96mINFO[39m [97mwebdriver[39m: [33mDATA[39m { using: 'css selector', value: '#flash' }
+[0-1] [90m2022-08-26T13:12:09.096Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m {
+[0-1]   'element-6066-11e4-a52e-4f735466cecf': 'f2215a2c-239b-46b7-9886-22cd19a6ba1e'
+[0-1] }
+[0-1] [90m2022-08-26T13:12:09.098Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m findElements("css selector", "#flash")
+[0-1] [90m2022-08-26T13:12:09.098Z[39m [96mINFO[39m [97mwebdriver[39m: [POST] http://localhost:4444/wd/hub/session/6bbde4b9b41535c35e05560d0a962fec/elements
+[0-1] [90m2022-08-26T13:12:09.098Z[39m [96mINFO[39m [97mwebdriver[39m: [33mDATA[39m { using: 'css selector', value: '#flash' }
+[0-1] [90m2022-08-26T13:12:09.112Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m [
+[0-1]   {
+[0-1]     'element-6066-11e4-a52e-4f735466cecf': 'f2215a2c-239b-46b7-9886-22cd19a6ba1e'
+[0-1]   }
+[0-1] ]
+[0-1] [90m2022-08-26T13:12:09.116Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m findElement("css selector", "#flash")
+[0-1] [90m2022-08-26T13:12:09.116Z[39m [96mINFO[39m [97mwebdriver[39m: [POST] http://localhost:4444/wd/hub/session/6bbde4b9b41535c35e05560d0a962fec/element
+[0-1] [90m2022-08-26T13:12:09.116Z[39m [96mINFO[39m [97mwebdriver[39m: [33mDATA[39m { using: 'css selector', value: '#flash' }
+[0-1] [90m2022-08-26T13:12:09.131Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m {
+[0-1]   'element-6066-11e4-a52e-4f735466cecf': 'f2215a2c-239b-46b7-9886-22cd19a6ba1e'
+[0-1] }
+[0-1] [90m2022-08-26T13:12:09.132Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m getElementText("f2215a2c-239b-46b7-9886-22cd19a6ba1e")
+[0-1] [90m2022-08-26T13:12:09.133Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:4444/wd/hub/session/6bbde4b9b41535c35e05560d0a962fec/element/f2215a2c-239b-46b7-9886-22cd19a6ba1e/text
+[0-1] [90m2022-08-26T13:12:09.150Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m Your username is invalid!
+[0-1] ×
+[0-1] [90m2022-08-26T13:12:09.634Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m getElementText("f2215a2c-239b-46b7-9886-22cd19a6ba1e")
+[0-1] [90m2022-08-26T13:12:09.635Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:4444/wd/hub/session/6bbde4b9b41535c35e05560d0a962fec/element/f2215a2c-239b-46b7-9886-22cd19a6ba1e/text
+[0-1] [90m2022-08-26T13:12:09.660Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m Your username is invalid!
+[0-1] ×
+[0-1] [90m2022-08-26T13:12:10.132Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m getElementText("f2215a2c-239b-46b7-9886-22cd19a6ba1e")
+[0-1] [90m2022-08-26T13:12:10.133Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:4444/wd/hub/session/6bbde4b9b41535c35e05560d0a962fec/element/f2215a2c-239b-46b7-9886-22cd19a6ba1e/text
+[0-1] [90m2022-08-26T13:12:10.159Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m Your username is invalid!
+[0-1] ×
+[0-1] [90m2022-08-26T13:12:10.654Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m getElementText("f2215a2c-239b-46b7-9886-22cd19a6ba1e")
+[0-1] [90m2022-08-26T13:12:10.654Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:4444/wd/hub/session/6bbde4b9b41535c35e05560d0a962fec/element/f2215a2c-239b-46b7-9886-22cd19a6ba1e/text
+[0-1] [90m2022-08-26T13:12:10.671Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m Your username is invalid!
+[0-1] ×
+[0-1] [90m2022-08-26T13:12:11.132Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m getElementText("f2215a2c-239b-46b7-9886-22cd19a6ba1e")
+[0-1] [90m2022-08-26T13:12:11.132Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:4444/wd/hub/session/6bbde4b9b41535c35e05560d0a962fec/element/f2215a2c-239b-46b7-9886-22cd19a6ba1e/text
+[0-1] [90m2022-08-26T13:12:11.152Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m Your username is invalid!
+[0-1] ×
+[0-1] [90m2022-08-26T13:12:11.639Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m getElementText("f2215a2c-239b-46b7-9886-22cd19a6ba1e")
+[0-1] [90m2022-08-26T13:12:11.639Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:4444/wd/hub/session/6bbde4b9b41535c35e05560d0a962fec/element/f2215a2c-239b-46b7-9886-22cd19a6ba1e/text
+[0-1] [90m2022-08-26T13:12:11.655Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m Your username is invalid!
+[0-1] ×
+[0-1] [90m2022-08-26T13:12:12.139Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m getElementText("f2215a2c-239b-46b7-9886-22cd19a6ba1e")
+[0-1] [90m2022-08-26T13:12:12.140Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:4444/wd/hub/session/6bbde4b9b41535c35e05560d0a962fec/element/f2215a2c-239b-46b7-9886-22cd19a6ba1e/text
+[0-1] [90m2022-08-26T13:12:12.157Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m Your username is invalid!
+[0-1] ×
+[0-1] [90m2022-08-26T13:12:12.641Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m getElementText("f2215a2c-239b-46b7-9886-22cd19a6ba1e")
+[0-1] [90m2022-08-26T13:12:12.641Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:4444/wd/hub/session/6bbde4b9b41535c35e05560d0a962fec/element/f2215a2c-239b-46b7-9886-22cd19a6ba1e/text
+[0-1] [90m2022-08-26T13:12:12.659Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m Your username is invalid!
+[0-1] ×
+[0-1] [90m2022-08-26T13:12:13.138Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m getElementText("f2215a2c-239b-46b7-9886-22cd19a6ba1e")
+[0-1] [90m2022-08-26T13:12:13.138Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:4444/wd/hub/session/6bbde4b9b41535c35e05560d0a962fec/element/f2215a2c-239b-46b7-9886-22cd19a6ba1e/text
+[0-1] [90m2022-08-26T13:12:13.150Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m Your username is invalid!
+[0-1] ×
+[0-1] [90m2022-08-26T13:12:13.642Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m getElementText("f2215a2c-239b-46b7-9886-22cd19a6ba1e")
+[0-1] [90m2022-08-26T13:12:13.642Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:4444/wd/hub/session/6bbde4b9b41535c35e05560d0a962fec/element/f2215a2c-239b-46b7-9886-22cd19a6ba1e/text
+[0-1] [90m2022-08-26T13:12:13.670Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m Your username is invalid!
+[0-1] ×
+[0-1] [90m2022-08-26T13:12:14.138Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m getElementText("f2215a2c-239b-46b7-9886-22cd19a6ba1e")
+[0-1] [90m2022-08-26T13:12:14.139Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:4444/wd/hub/session/6bbde4b9b41535c35e05560d0a962fec/element/f2215a2c-239b-46b7-9886-22cd19a6ba1e/text
+[0-1] [90m2022-08-26T13:12:14.168Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m Your username is invalid!
+[0-1] ×
+[0-1] [90m2022-08-26T13:12:14.640Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m getElementText("f2215a2c-239b-46b7-9886-22cd19a6ba1e")
+[0-1] [90m2022-08-26T13:12:14.640Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:4444/wd/hub/session/6bbde4b9b41535c35e05560d0a962fec/element/f2215a2c-239b-46b7-9886-22cd19a6ba1e/text
+[0-1] [90m2022-08-26T13:12:14.668Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m Your username is invalid!
+[0-1] ×
+[0-1] [90m2022-08-26T13:12:15.140Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m getElementText("f2215a2c-239b-46b7-9886-22cd19a6ba1e")
+[0-1] [90m2022-08-26T13:12:15.140Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:4444/wd/hub/session/6bbde4b9b41535c35e05560d0a962fec/element/f2215a2c-239b-46b7-9886-22cd19a6ba1e/text
+[0-1] [90m2022-08-26T13:12:15.166Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m Your username is invalid!
+[0-1] ×
+[0-1] [90m2022-08-26T13:12:15.642Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m getElementText("f2215a2c-239b-46b7-9886-22cd19a6ba1e")
+[0-1] [90m2022-08-26T13:12:15.642Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:4444/wd/hub/session/6bbde4b9b41535c35e05560d0a962fec/element/f2215a2c-239b-46b7-9886-22cd19a6ba1e/text
+[0-1] [90m2022-08-26T13:12:15.667Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m Your username is invalid!
+[0-1] ×
+[0-1] [90m2022-08-26T13:12:16.145Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m getElementText("f2215a2c-239b-46b7-9886-22cd19a6ba1e")
+[0-1] [90m2022-08-26T13:12:16.145Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:4444/wd/hub/session/6bbde4b9b41535c35e05560d0a962fec/element/f2215a2c-239b-46b7-9886-22cd19a6ba1e/text
+[0-1] [90m2022-08-26T13:12:16.174Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m Your username is invalid!
+[0-1] ×
+[0-1] [90m2022-08-26T13:12:16.647Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m getElementText("f2215a2c-239b-46b7-9886-22cd19a6ba1e")
+[0-1] [90m2022-08-26T13:12:16.648Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:4444/wd/hub/session/6bbde4b9b41535c35e05560d0a962fec/element/f2215a2c-239b-46b7-9886-22cd19a6ba1e/text
+[0-1] [90m2022-08-26T13:12:16.675Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m Your username is invalid!
+[0-1] ×
+[0-1] [90m2022-08-26T13:12:17.133Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m getElementText("f2215a2c-239b-46b7-9886-22cd19a6ba1e")
+[0-1] [90m2022-08-26T13:12:17.135Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:4444/wd/hub/session/6bbde4b9b41535c35e05560d0a962fec/element/f2215a2c-239b-46b7-9886-22cd19a6ba1e/text
+[0-1] [90m2022-08-26T13:12:17.166Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m Your username is invalid!
+[0-1] ×
+[0-1] [90m2022-08-26T13:12:17.634Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m getElementText("f2215a2c-239b-46b7-9886-22cd19a6ba1e")
+[0-1] [90m2022-08-26T13:12:17.635Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:4444/wd/hub/session/6bbde4b9b41535c35e05560d0a962fec/element/f2215a2c-239b-46b7-9886-22cd19a6ba1e/text
+[0-1] [90m2022-08-26T13:12:17.663Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m Your username is invalid!
+[0-1] ×
+[0-1] [90m2022-08-26T13:12:18.133Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m getElementText("f2215a2c-239b-46b7-9886-22cd19a6ba1e")
+[0-1] [90m2022-08-26T13:12:18.134Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:4444/wd/hub/session/6bbde4b9b41535c35e05560d0a962fec/element/f2215a2c-239b-46b7-9886-22cd19a6ba1e/text
+[0-1] [90m2022-08-26T13:12:18.163Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m Your username is invalid!
+[0-1] ×
+[0-1] [90m2022-08-26T13:12:18.634Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m getElementText("f2215a2c-239b-46b7-9886-22cd19a6ba1e")
+[0-1] [90m2022-08-26T13:12:18.635Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:4444/wd/hub/session/6bbde4b9b41535c35e05560d0a962fec/element/f2215a2c-239b-46b7-9886-22cd19a6ba1e/text
+[0-1] [90m2022-08-26T13:12:18.656Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m Your username is invalid!
+[0-1] ×
+[0-1] [90m2022-08-26T13:12:19.151Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m takeScreenshot()
+[0-1] [90m2022-08-26T13:12:19.152Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:4444/wd/hub/session/6bbde4b9b41535c35e05560d0a962fec/screenshot
+[0-1] [90m2022-08-26T13:12:19.249Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m iVBORw0KGgoAAAANSUhEUgAAA6EAAAN3CAYAAADDPFwYAAAAAXNSR0IArs4c6...
+[0-1] Error in "1: Then I should see a flash message saying ddd"
+Error: Expect $(`#flash`) to have text containing
+
+[32m- Expected  - 1[39m
+[31m+ Received  + 2[39m
+
+[32m- ddd[39m
+[31m+ Your username is invalid![39m
+[31m+ ×[39m
+    at World.<anonymous> (D:\automation_suite_instasub\features\step-definitions\steps.ts:24:39)
+[0-1] [90m2022-08-26T13:12:19.254Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m deleteSession()
+[0-1] [90m2022-08-26T13:12:19.254Z[39m [96mINFO[39m [97mwebdriver[39m: [DELETE] http://localhost:4444/wd/hub/session/6bbde4b9b41535c35e05560d0a962fec
+[0-1] FAILED in chrome - D:\automation_suite_instasub\features\login.feature
+2022-08-26T13:12:19.990Z INFO @wdio/cli:launcher: Run onWorkerEnd hook
+2022-08-26T13:12:19.990Z INFO @wdio/cli:launcher: Run onWorkerStart hook
+2022-08-26T13:12:19.992Z INFO @wdio/local-runner: Start worker 0-2 with arg: run,test/wdio.conf.ts
+[0-2] [90m2022-08-26T13:12:20.396Z[39m [96mINFO[39m [97m@wdio/local-runner[39m: Run worker command: run
+[0-2] [90m2022-08-26T13:12:20.791Z[39m [96mINFO[39m [97mwdio-multiple-cucumber-html-reporter[39m: The 'jsonFolder' was not set, it has been set to the default '.tmp/json/'
+[0-2] [90m2022-08-26T13:12:20.791Z[39m [96mINFO[39m [97mwdio-multiple-cucumber-html-reporter[39m: The 'language' was not set, it has been set to the default 'en'
+[0-2] [90m2022-08-26T13:12:20.791Z[39m [96mINFO[39m [97mwdio-multiple-cucumber-html-reporter[39m: The 'reportFilePerRetry' was not set, it has been set to the default 'true'
+[0-2] RUNNING in chrome - D:\automation_suite_instasub\features\loginsecond.feature
+[0-2] [90m2022-08-26T13:12:21.145Z[39m [96mINFO[39m [97mwebdriver[39m: Initiate new session using the WebDriver protocol
+[0-2] [90m2022-08-26T13:12:21.148Z[39m [96mINFO[39m [97mwebdriver[39m: [POST] http://localhost:4444/wd/hub/session
+[0-2] [90m2022-08-26T13:12:21.148Z[39m [96mINFO[39m [97mwebdriver[39m: [33mDATA[39m {
+[0-2]   capabilities: {
+[0-2]     alwaysMatch: { browserName: 'chrome', acceptInsecureCerts: true },
+[0-2]     firstMatch: [ {} ]
+[0-2]   },
+[0-2]   desiredCapabilities: { browserName: 'chrome', acceptInsecureCerts: true }
+[0-2] }
+[0-2] [90m2022-08-26T13:12:22.926Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m navigateTo("https://the-internet.herokuapp.com/login")
+[0-2] [90m2022-08-26T13:12:22.926Z[39m [96mINFO[39m [97mwebdriver[39m: [POST] http://localhost:4444/wd/hub/session/7ca4b585f37641ed6f2f4b57b7340081/url
+[0-2] [90m2022-08-26T13:12:22.926Z[39m [96mINFO[39m [97mwebdriver[39m: [33mDATA[39m { url: 'https://the-internet.herokuapp.com/login' }
+[0-2] [90m2022-08-26T13:12:26.249Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m takeScreenshot()
+[0-2] [90m2022-08-26T13:12:26.249Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:4444/wd/hub/session/7ca4b585f37641ed6f2f4b57b7340081/screenshot
+[0-2] [90m2022-08-26T13:12:26.362Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m iVBORw0KGgoAAAANSUhEUgAAA6EAAAN3CAYAAADDPFwYAAAAAXNSR0IArs4c6...
+[0-2] [90m2022-08-26T13:12:26.368Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m findElement("css selector", "#username")
+[0-2] [90m2022-08-26T13:12:26.369Z[39m [96mINFO[39m [97mwebdriver[39m: [POST] http://localhost:4444/wd/hub/session/7ca4b585f37641ed6f2f4b57b7340081/element
+[0-2] [90m2022-08-26T13:12:26.369Z[39m [96mINFO[39m [97mwebdriver[39m: [33mDATA[39m { using: 'css selector', value: '#username' }
+[0-2] [90m2022-08-26T13:12:26.390Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m {
+[0-2]   'element-6066-11e4-a52e-4f735466cecf': '6a3a136a-c728-4bd5-bb13-0e56e6fc5997'
+[0-2] }
+[0-2] [90m2022-08-26T13:12:26.397Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m elementClear("6a3a136a-c728-4bd5-bb13-0e56e6fc5997")
+[0-2] [90m2022-08-26T13:12:26.397Z[39m [96mINFO[39m [97mwebdriver[39m: [POST] http://localhost:4444/wd/hub/session/7ca4b585f37641ed6f2f4b57b7340081/element/6a3a136a-c728-4bd5-bb13-0e56e6fc5997/clear
+[0-2] [90m2022-08-26T13:12:26.431Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m elementSendKeys("6a3a136a-c728-4bd5-bb13-0e56e6fc5997", "foobar")
+[0-2] [90m2022-08-26T13:12:26.432Z[39m [96mINFO[39m [97mwebdriver[39m: [POST] http://localhost:4444/wd/hub/session/7ca4b585f37641ed6f2f4b57b7340081/element/6a3a136a-c728-4bd5-bb13-0e56e6fc5997/value
+[0-2] [90m2022-08-26T13:12:26.432Z[39m [96mINFO[39m [97mwebdriver[39m: [33mDATA[39m { text: 'foobar' }
+[0-2] [90m2022-08-26T13:12:26.483Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m findElement("css selector", "#password")
+[0-2] [90m2022-08-26T13:12:26.483Z[39m [96mINFO[39m [97mwebdriver[39m: [POST] http://localhost:4444/wd/hub/session/7ca4b585f37641ed6f2f4b57b7340081/element
+[0-2] [90m2022-08-26T13:12:26.483Z[39m [96mINFO[39m [97mwebdriver[39m: [33mDATA[39m { using: 'css selector', value: '#password' }
+[0-2] [90m2022-08-26T13:12:26.501Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m {
+[0-2]   'element-6066-11e4-a52e-4f735466cecf': '566ee071-8bdd-404a-a6d6-85a4c59c5240'
+[0-2] }
+[0-2] [90m2022-08-26T13:12:26.504Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m elementClear("566ee071-8bdd-404a-a6d6-85a4c59c5240")
+[0-2] [90m2022-08-26T13:12:26.504Z[39m [96mINFO[39m [97mwebdriver[39m: [POST] http://localhost:4444/wd/hub/session/7ca4b585f37641ed6f2f4b57b7340081/element/566ee071-8bdd-404a-a6d6-85a4c59c5240/clear
+[0-2] [90m2022-08-26T13:12:26.533Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m elementSendKeys("566ee071-8bdd-404a-a6d6-85a4c59c5240", "barfoo")
+[0-2] [90m2022-08-26T13:12:26.534Z[39m [96mINFO[39m [97mwebdriver[39m: [POST] http://localhost:4444/wd/hub/session/7ca4b585f37641ed6f2f4b57b7340081/element/566ee071-8bdd-404a-a6d6-85a4c59c5240/value
+[0-2] [90m2022-08-26T13:12:26.534Z[39m [96mINFO[39m [97mwebdriver[39m: [33mDATA[39m { text: 'barfoo' }
+[0-2] [90m2022-08-26T13:12:26.575Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m findElement("css selector", "button[type="submit"]")
+[0-2] [90m2022-08-26T13:12:26.576Z[39m [96mINFO[39m [97mwebdriver[39m: [POST] http://localhost:4444/wd/hub/session/7ca4b585f37641ed6f2f4b57b7340081/element
+[0-2] [90m2022-08-26T13:12:26.576Z[39m [96mINFO[39m [97mwebdriver[39m: [33mDATA[39m { using: 'css selector', value: 'button[type="submit"]' }
+[0-2] [90m2022-08-26T13:12:26.590Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m {
+[0-2]   'element-6066-11e4-a52e-4f735466cecf': '8dbf11a7-aeb2-4fb4-a3cd-ecd4191f8580'
+[0-2] }
+[0-2] [90m2022-08-26T13:12:26.592Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m elementClick("8dbf11a7-aeb2-4fb4-a3cd-ecd4191f8580")
+[0-2] [90m2022-08-26T13:12:26.592Z[39m [96mINFO[39m [97mwebdriver[39m: [POST] http://localhost:4444/wd/hub/session/7ca4b585f37641ed6f2f4b57b7340081/element/8dbf11a7-aeb2-4fb4-a3cd-ecd4191f8580/click
+[0-2] [90m2022-08-26T13:12:27.163Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m takeScreenshot()
+[0-2] [90m2022-08-26T13:12:27.163Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:4444/wd/hub/session/7ca4b585f37641ed6f2f4b57b7340081/screenshot
+[0-2] [90m2022-08-26T13:12:27.280Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m iVBORw0KGgoAAAANSUhEUgAAA6EAAAN3CAYAAADDPFwYAAAAAXNSR0IArs4c6...
+[0-2] [90m2022-08-26T13:12:27.282Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m findElement("css selector", "#flash")
+[0-2] [90m2022-08-26T13:12:27.282Z[39m [96mINFO[39m [97mwebdriver[39m: [POST] http://localhost:4444/wd/hub/session/7ca4b585f37641ed6f2f4b57b7340081/element
+[0-2] [90m2022-08-26T13:12:27.282Z[39m [96mINFO[39m [97mwebdriver[39m: [33mDATA[39m { using: 'css selector', value: '#flash' }
+[0-2] [90m2022-08-26T13:12:27.297Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m {
+[0-2]   'element-6066-11e4-a52e-4f735466cecf': '73e37f1b-c8df-4c6a-8763-97a2ec8876a4'
+[0-2] }
+[0-2] [90m2022-08-26T13:12:27.299Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m findElements("css selector", "#flash")
+[0-2] [90m2022-08-26T13:12:27.300Z[39m [96mINFO[39m [97mwebdriver[39m: [POST] http://localhost:4444/wd/hub/session/7ca4b585f37641ed6f2f4b57b7340081/elements
+[0-2] [90m2022-08-26T13:12:27.300Z[39m [96mINFO[39m [97mwebdriver[39m: [33mDATA[39m { using: 'css selector', value: '#flash' }
+[0-2] [90m2022-08-26T13:12:27.313Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m [
+[0-2]   {
+[0-2]     'element-6066-11e4-a52e-4f735466cecf': '73e37f1b-c8df-4c6a-8763-97a2ec8876a4'
+[0-2]   }
+[0-2] ]
+[0-2] [90m2022-08-26T13:12:27.317Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m findElement("css selector", "#flash")
+[0-2] [90m2022-08-26T13:12:27.318Z[39m [96mINFO[39m [97mwebdriver[39m: [POST] http://localhost:4444/wd/hub/session/7ca4b585f37641ed6f2f4b57b7340081/element
+[0-2] [90m2022-08-26T13:12:27.318Z[39m [96mINFO[39m [97mwebdriver[39m: [33mDATA[39m { using: 'css selector', value: '#flash' }
+[0-2] [90m2022-08-26T13:12:27.329Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m {
+[0-2]   'element-6066-11e4-a52e-4f735466cecf': '73e37f1b-c8df-4c6a-8763-97a2ec8876a4'
+[0-2] }
+[0-2] [90m2022-08-26T13:12:27.332Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m getElementText("73e37f1b-c8df-4c6a-8763-97a2ec8876a4")
+[0-2] [90m2022-08-26T13:12:27.333Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:4444/wd/hub/session/7ca4b585f37641ed6f2f4b57b7340081/element/73e37f1b-c8df-4c6a-8763-97a2ec8876a4/text
+[0-2] [90m2022-08-26T13:12:27.348Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m Your username is invalid!
+[0-2] ×
+[0-2] [90m2022-08-26T13:12:27.349Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m takeScreenshot()
+[0-2] [90m2022-08-26T13:12:27.349Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://localhost:4444/wd/hub/session/7ca4b585f37641ed6f2f4b57b7340081/screenshot
+[0-2] [90m2022-08-26T13:12:27.435Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m iVBORw0KGgoAAAANSUhEUgAAA6EAAAN3CAYAAADDPFwYAAAAAXNSR0IArs4c6...
+[0-2] [90m2022-08-26T13:12:27.436Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m deleteSession()
+[0-2] [90m2022-08-26T13:12:27.436Z[39m [96mINFO[39m [97mwebdriver[39m: [DELETE] http://localhost:4444/wd/hub/session/7ca4b585f37641ed6f2f4b57b7340081
+[0-2] PASSED in chrome - D:\automation_suite_instasub\features\loginsecond.feature
+2022-08-26T13:12:28.160Z INFO @wdio/cli:launcher: Run onWorkerEnd hook
+2022-08-26T13:12:28.160Z INFO @wdio/cli:launcher: Run onComplete hook
+
+
+=====================================================================================
+    Multiple Cucumber HTML report generated in:
+
+    D:\automation_suite_instasub\reports\index.html
+=====================================================================================
+
+2022-08-26T13:12:28.207Z INFO @wdio/selenium-standalone-service: shutting down all browsers
+
+Spec Files:	 2 passed, 1 failed, 3 total (100% completed) in 00:00:53 
+
+2022-08-26T13:12:28.209Z INFO @wdio/local-runner: Shutting down spawned worker
+2022-08-26T13:12:28.458Z INFO @wdio/local-runner: Waiting for 0 to shut down gracefully
+2022-08-26T13:12:28.459Z INFO @wdio/local-runner: shutting down

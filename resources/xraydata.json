@@ -1,0 +1,9 @@
+{
+    "baseurl": "https://xray.cloud.getxray.app/api",
+    "url": "/v2/authenticate",
+    "accept": "application/json",
+    "content": "Content-type",
+    "client_id": "F54720808F05476BA828B6809219A896",
+    "client_secret": "e95e7db0a9fdcb8bc29e24213404e5c144ba94063f69844fa57ffa1a288dc138",
+     "token":"testing"
+  }
